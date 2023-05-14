@@ -1,6 +1,8 @@
 ---
-title: "A little talk with you firends :)"
-date: 2023-03-27T27:18:19+18:19
+layout: post
+title:  "A little talk with you firends :)"
+date:   2023-03-27 12:20:52 -0400
+categories: talk
 ---
 # So whats up?
 
