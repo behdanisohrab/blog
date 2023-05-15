@@ -53,3 +53,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+Navigation:
+- title: Home
+ url: /index.markdown
+- title: About
+url: /about/
+ - title: old site
+url: https://sohrabbehdani.ir
