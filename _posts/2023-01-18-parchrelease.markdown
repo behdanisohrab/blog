@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Parch Linux has been released!"
+date:   2023-01-18 18:11:00 -0400
+categories: parchlinux
+---
+
+# new version of parch linux released
+
+The latest version of parch linux is finally released after two months of continuous work, which uses the plasma desktop. This version is in alpha and will be converted into beta after continuous tests and bugs that you provide to us.
+
+Also, the site has been updated and you can access it from this [Link](https://parchlinux.ir) .
+In the new update of the site, we tried to make it easy for all of you to access the content and distribution files.
+
+
