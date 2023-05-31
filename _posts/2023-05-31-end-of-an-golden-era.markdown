@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "پایان یک دوره طلایی، پایان اوبونتو"
+title:  "end of a golden era"
 date:   2023-05-31 12:22:49 -0400
 categories: Ubuntu
 ---
