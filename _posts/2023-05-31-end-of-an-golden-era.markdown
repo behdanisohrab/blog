@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My first post"
+title:  "پایان یک دوره طلایی، پایان اوبونتو"
 date:   2023-05-31 12:22:49 -0400
 categories: Ubuntu
 ---
