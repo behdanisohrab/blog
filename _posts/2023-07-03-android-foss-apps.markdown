@@ -1,5 +1,5 @@
 ---
-layout: pageAuto
+layout: post
 title:  "معرفی چندین برنامه اوپن سورس اندروید"
 date:   2023-07-03 1:29:49 -0400
 categories: android
