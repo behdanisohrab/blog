@@ -1,10 +1,13 @@
 ---
-layout: post
+layout: pageAuto
 title:  "معرفی چندین برنامه اوپن سورس اندروید"
 date:   2023-07-03 1:29:49 -0400
-lang: fa
 categories: android
 ---
+{% assign paragraphs = page.content | newline_to_br | strip_newlines | split: '<br />' %}
+{% for p in paragraphs %}
+
+<div dir="auto"> 
 
 
 
@@ -19,5 +22,8 @@ categories: android
 
 ![Alt text](https://google.com "تصویری از این برنامه")
 
+</div>
+
+{% endfor %}
 
 [Download from fdroid]()
