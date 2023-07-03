@@ -1,0 +1,9 @@
+{%- if page.lang == 'fa' -%}   
+    <div class="root" data-is-touch="false" dir="rtl">
+        {{content}} 
+    </div>
+{%- else -%}
+    <div class="root" data-is-touch="false">
+        {{content}} 
+    </div>
+{%- endif -%}

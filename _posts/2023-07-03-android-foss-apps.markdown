@@ -2,10 +2,10 @@
 layout: post
 title:  "معرفی چندین برنامه اوپن سورس اندروید"
 date:   2023-07-03 1:29:49 -0400
+lang: fa
 categories: android
 ---
 
-<div dir=”rtl”>
 
 
 توی این پست میخوام چند تا از برنامه های جالب اوپن سورس اندروید رو معرفی کنم.
@@ -19,7 +19,5 @@ categories: android
 
 ![Alt text](https://google.com "تصویری از این برنامه")
 
-
-</div>
 
 [Download from fdroid]()
