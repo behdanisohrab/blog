@@ -1,3 +1,6 @@
 [submodule "themes/dinkleberg"]
 	path = themes/dinkleberg
 	url = https://github.com/behdanisohrab/dinkleberg
+[submodule "themes/emily_zola_theme"]
+	path = themes/emily_zola_theme
+	url = https://github.com/kyoheiu/emily_zola_theme.git
