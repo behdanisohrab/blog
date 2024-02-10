@@ -4,11 +4,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Configuring Git user
+        run: |
+        git config --global init.defaultBranch main
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: checkout
         uses: actions/checkout@v4
       - name: build_and_deploy
         uses: shalzz/zola-deploy-action@v0.17.2
-        run: git config --global init.defaultBranch main
         env:
           # Target branch
           PAGES_BRANCH: main
