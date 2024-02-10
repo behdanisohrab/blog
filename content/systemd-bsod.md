@@ -3,7 +3,7 @@ title = "SystemD BSOD"
 description = "WTF is SystemD BSOD"
 date=2024-02-10
 category = "SystemD"
-tags = ["SystemD" "Linux"]
+tags = ["SystemD", "Linux"]
 
 [extra]
 author="Sohrab Behdani"
