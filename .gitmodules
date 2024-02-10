@@ -4,3 +4,6 @@
 [submodule "themes/emily_zola_theme"]
 	path = themes/emily_zola_theme
 	url = https://github.com/kyoheiu/emily_zola_theme.git
+[submodule "themes/kita"]
+	path = themes/kita
+	url = https://github.com/st1020/kita.git

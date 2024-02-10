@@ -7,7 +7,8 @@ description = "I share my ideas here :)"
 default_language = "en"
 
 #theme = "dinkleberg"
-theme = "emily_zola_theme"
+theme = "kita"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 

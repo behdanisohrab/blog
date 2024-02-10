@@ -1,0 +1,63 @@
+# The URL the site will be built for
+base_url = "https://sohrabbehdani.ir/blog"
+
+#rss
+title = "Sohrab Blog"
+description = "I share my ideas here :)"
+default_language = "en"
+
+theme = "dinkleberg"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+highlight_theme = "gruvbox-dark"
+
+generate_tags_pages = true
+generate_categories_pages = true
+
+[extra]
+blog_logo="/imgs/common/logo.png" #will appear on top header
+blog_title="Sohrab Blog" #will appear on top header after logo
+
+## i18n words
+label_tags = "Tags"
+label_tag = "Tag"
+label_categories = "Categories"
+label_category = "Category"
+label_relative_posts = "Also Read"
+label_next = "Next"
+label_previous = "Back"
+label_page = "Page"
+label_of = "de"
+label_minutes = "minutes"
+
+og_image="" # Image that will appear on social media
+og_alt_image="" # Alt for og_image
+og_site_name="" # Site Name for Open Graphic
+keywords="" # Keywords for SEO
+
+educational_use="knowledge share" # OPTIONAL
+copyright_year="2024" # OPTIONAL
+
+fb_app_id="???" # OPTIONAL, Facebook App Id to help in metrics
+twitter_username="@???" # OPTIONAL, Twitter User to help with metrics
+
+## Sidebar automatic links
+sidebar = [
+    {name = "Social", urls=[
+        {name="Telegram", url="https://t.me/sohrabcontents"},
+        {name="Github", url="https://github.com/behdanisohrab"},
+    ]},
+    {name = "My Website", urls=[
+        {name="sohrab website", url="https://sohrabbehdani.ir"}
+    ]}
+]
+
