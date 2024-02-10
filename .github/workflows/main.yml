@@ -11,8 +11,8 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: checkout
         uses: actions/checkout@v4
-      - name: build_and_deploy
-        uses: shalzz/zola-deploy-action@v0.17.2
+      - name: Build Zola for GitHub Pages
+        uses: kytta/zola-build-pages@v1.0.0    
         env:
           # Target branch
           PAGES_BRANCH: main
