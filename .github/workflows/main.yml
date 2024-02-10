@@ -1,19 +1,34 @@
-# On every push this script is executed
-on: push
-name: Build and deploy GH Pages
+name: Zola
+
+on:
+  push:
+    branches: source
+  pull_request:
+
 jobs:
-  build:
+  zola:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
+    env:
+      BASE_URL: https://github.com/getzola/zola/releases/download
+      VERS: v0.15.2
+      ARCH: x86_64-unknown-linux-gnu
+      # https://github.com/crazy-max/ghaction-github-pages/issues/1#issuecomment-623202206
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: checkout
-        uses: actions/checkout@v4
-      - name: build_and_deploy
-        uses: shalzz/zola-deploy-action@v0.17.2
-        env:
-          # Target branch
-          PAGES_BRANCH: gh-pages
-          # Provide personal access token
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Or if publishing to the same repo, use the automatic token
-          #TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - uses: actions/checkout@v2
+    - name: Lint
+      uses: avto-dev/markdown-lint@v1
+      with:
+        args: '.'
+        config: '.markdownlint.json'
+    - name: Install Zola
+      run: curl -L ${BASE_URL}/${VERS}/zola-${VERS}-${ARCH}.tar.gz | tar -xz
+    - run: ./zola --version
+    - run: ./zola build
+    - name: Deploy
+      if: github.ref == 'refs/heads/source'
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        build_dir: public
+        target_branch: master
+
