@@ -3,6 +3,7 @@ title = "SystemD BSOD"
 description = "WTF is SystemD BSOD"
 date=2024-02-10
 category = "SystemD"
+[taxonomies]
 tags = ["SystemD", "Linux"]
 
 [extra]
@@ -13,6 +14,9 @@ author="Sohrab Behdani"
 
 
 The Linux community has long relied on verbose error logs to diagnose boot failures. These logs provide detailed information about the cause of the problem, allowing system administrators and users to quickly identify and resolve issues. However, with the introduction of systemd-bsod, a new service that displays a full-screen error message on the screen when a boot failure occurs, some members of the community have raised concerns.
+
+<!-- more -->
+
 
 ### Oversimplification of Boot Failure Diagnosis
 

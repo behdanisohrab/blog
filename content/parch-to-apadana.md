@@ -3,6 +3,7 @@ title = "From Parch to Apadana"
 description = "The Development Path from Parch to Apadana"
 date=2024-10-31
 category = "ParchLinux"
+[taxonomies]
 tags = ["parch"]
 
 [extra]
@@ -17,6 +18,7 @@ author="Sohrab Behdani"
 
 In the world of Linux distributions, creating a new distro is always a serious and challenging endeavor. This story began with **Parch**, a distribution based on **Arch Linux** aimed at simplifying Arch for advanced users and enthusiasts of minimalistic systems.
 
+<!-- more -->
 
 ## Why Parch? What’s Behind the Name?
 

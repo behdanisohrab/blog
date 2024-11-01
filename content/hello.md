@@ -3,6 +3,7 @@ title = "Hello"
 description = "Welcome to my Blog"
 date=2024-02-10
 category = "Hello"
+[taxonomies]
 tags = ["hello"]
 
 [extra]

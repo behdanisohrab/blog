@@ -3,6 +3,7 @@ title = "Foss Software"
 description = "Why Should we use it?"
 date=2024-02-10
 category = "Foss"
+[taxonomies]
 tags = ["foss"]
 
 [extra]
@@ -14,6 +15,8 @@ author="Sohrab Behdani"
 You may have heard about something called "free and open source software" (FOSS). What is it, and why should you care? FOSS refers to software that anyone can use, modify, and share for free. It offers many advantages over proprietary software (like Microsoft Office). Here are some reasons why FOSS is worth trying:
 
 **It's Free!** FOSS is entirely free to download and use. Proprietary software costs money to license, sometimes hundreds of dollars per user. With FOSS you avoid those license fees which add up, especially for schools and businesses. Who doesn't love free stuff?
+<!-- more -->
+
 
 Take Control Proprietary software is restrictive. The company that makes it decides what features to add, bugs to fix, or changes to make. With FOSS, you are empowered to customize the software yourself for your needs. Don't like something? Change it! Add new features yourself or hire a programmer to do it for you. The sky's the limit.
 

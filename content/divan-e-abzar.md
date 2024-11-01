@@ -3,6 +3,7 @@ title = "Divan-e abzar"
 description = "A tool inspired by microsoft Dev Home"
 date=2024-02-17
 category = "Programming"
+[taxonomies]
 tags = ["devhome", "parchlinux", "Programming"]
 
 [extra]
@@ -12,6 +13,9 @@ author="Sohrab Behdani"
 ## Divan Abzar: Your Persian Workshop for Mastering Software Craftsmanship
 
 This white paper proposes "Divan Abzar," a new feature inspired by Microsoft's Dev Nest. But instead of a nest, imagine a bustling **workshop**, a vibrant Persian "Khana Kod" (House of Code) where software artisans gather to create and collaborate. Like its cultural namesake, Divan Abzar will be a centralized **place** within ParchLinux, specifically designed to streamline your development workflow and elevate your coding experience.
+
+<!-- more -->
+
 
 ### Why Do We Need This Workshop?
 
