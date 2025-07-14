@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://sohrabbehdani.ir/blog"
+base_url = "https://blog.sohrabbehdani.ir/"
 
 title = "Sohrab`s Free Contents"
 description = "I share my ideas here :)"
